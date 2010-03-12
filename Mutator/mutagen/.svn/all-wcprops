@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/84/trunk
+END
+API-NOTES
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/27/trunk/API-NOTES
+END
+TUTORIAL
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/21/trunk/TUTORIAL
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/21/trunk/TODO
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/56/trunk/setup.py
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/21/trunk/COPYING
+END
+MANIFEST.in
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/21/trunk/MANIFEST.in
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/84/trunk/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/78/trunk/README
+END

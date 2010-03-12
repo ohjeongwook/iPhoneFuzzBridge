@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/79/trunk/tests
+END
+test_wavpack.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/21/trunk/tests/test_wavpack.py
+END
+test___init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/50/trunk/tests/test___init__.py
+END
+test_mp3.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/72/trunk/tests/test_mp3.py
+END
+test_mp4.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/47/trunk/tests/test_mp4.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/21/trunk/tests/__init__.py
+END
+test_trueaudio.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/21/trunk/tests/test_trueaudio.py
+END
+test_easyid3.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/48/trunk/tests/test_easyid3.py
+END
+test_oggvorbis.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/55/trunk/tests/test_oggvorbis.py
+END
+test_oggflac.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/21/trunk/tests/test_oggflac.py
+END
+test__vorbis.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/74/trunk/tests/test__vorbis.py
+END
+test_flac.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/21/trunk/tests/test_flac.py
+END
+test_optimfrog.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/21/trunk/tests/test_optimfrog.py
+END
+test_monkeysaudio.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/21/trunk/tests/test_monkeysaudio.py
+END
+test_musepack.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/50/trunk/tests/test_musepack.py
+END
+test_asf.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/79/trunk/tests/test_asf.py
+END
+test__util.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/21/trunk/tests/test__util.py
+END
+test_ogg.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/21/trunk/tests/test_ogg.py
+END
+test_apev2.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/64/trunk/tests/test_apev2.py
+END
+test_id3.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/75/trunk/tests/test_id3.py
+END
+test_oggtheora.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/21/trunk/tests/test_oggtheora.py
+END
+test_m4a.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/44/trunk/tests/test_m4a.py
+END
+test_oggspeex.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/21/trunk/tests/test_oggspeex.py
+END
+test_easymp4.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/50/trunk/tests/test_easymp4.py
+END

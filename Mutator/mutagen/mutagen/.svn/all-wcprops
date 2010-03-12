@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/84/trunk/mutagen
+END
+wavpack.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/36/trunk/mutagen/wavpack.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/84/trunk/mutagen/__init__.py
+END
+mp3.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/72/trunk/mutagen/mp3.py
+END
+mp4.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/47/trunk/mutagen/mp4.py
+END
+easyid3.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/80/trunk/mutagen/easyid3.py
+END
+trueaudio.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/trunk/mutagen/trueaudio.py
+END
+oggvorbis.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/55/trunk/mutagen/oggvorbis.py
+END
+oggflac.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/77/trunk/mutagen/oggflac.py
+END
+_vorbis.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/74/trunk/mutagen/_vorbis.py
+END
+flac.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/76/trunk/mutagen/flac.py
+END
+optimfrog.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/21/trunk/mutagen/optimfrog.py
+END
+monkeysaudio.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/21/trunk/mutagen/monkeysaudio.py
+END
+musepack.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/21/trunk/mutagen/musepack.py
+END
+asf.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/59/trunk/mutagen/asf.py
+END
+_constants.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/21/trunk/mutagen/_constants.py
+END
+ogg.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/36/trunk/mutagen/ogg.py
+END
+_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/45/trunk/mutagen/_util.py
+END
+apev2.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/36/trunk/mutagen/apev2.py
+END
+id3.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/75/trunk/mutagen/id3.py
+END
+oggtheora.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/55/trunk/mutagen/oggtheora.py
+END
+oggspeex.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/55/trunk/mutagen/oggspeex.py
+END
+m4a.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/36/trunk/mutagen/m4a.py
+END
+easymp4.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/83/trunk/mutagen/easymp4.py
+END

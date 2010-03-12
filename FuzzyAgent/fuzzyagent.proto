@@ -1,0 +1,45 @@
+message Control {
+  required int32 opcode = 1;
+  required int32 type = 2;
+  enum AudioTypes {
+    AudioFormatLinearPCM = 1;
+    AudioFormatAC3 = 2;
+    AudioFormat60958AC3 = 3;
+    AudioFormatAppleIMA4 = 4;
+    AudioFormatMPEG4AAC = 5;
+    AudioFormatMPEG4CELP = 6;
+    AudioFormatMPEG4HVXC = 7;
+    AudioFormatMPEG4TwinVQ = 8;
+    AudioFormatMACE3 = 9;
+    AudioFormatMACE6 = 10;
+    AudioFormatULaw = 11;
+    AudioFormatALaw = 12;
+    AudioFormatQDesign = 13;
+    AudioFormatQDesign2 = 14;
+    AudioFormatQUALCOMM = 15;
+    AudioFormatMPEGLayer1 = 16;
+    AudioFormatMPEGLayer2 = 17;
+    AudioFormatMPEGLayer3 = 18;
+    AudioFormatTimeCode = 19;
+    AudioFormatMIDIStream = 20;
+    AudioFormatParameterValueStream = 21;
+    AudioFormatAppleLossless = 22;
+    AudioFormatMPEG4AAC_HE = 23;
+    AudioFormatMPEG4AAC_LD = 24;
+    AudioFormatMPEG4AAC_HE_V2 = 25;
+    AudioFormatMPEG4AAC_Spatial = 26;
+    AudioFormatAMR = 27;
+    AudioFormatAudible = 28;
+    AudioFormatiLBC = 29;
+    AudioFormatDVIIntelIMA = 30;
+    AudioFormatMicrosoftGSM = 31;
+    AudioFormatAES3 = 32;
+  }
+  required bytes data = 3;
+}
+
+message Response
+{
+  required int32 return_code = 1;
+}
+

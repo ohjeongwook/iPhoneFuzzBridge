@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/73/trunk/tests/data
+END
+mac-396.ape
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/21/trunk/tests/data/mac-396.ape
+END
+empty.ofr
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/21/trunk/tests/data/empty.ofr
+END
+empty.ofs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/21/trunk/tests/data/empty.ofs
+END
+empty.tta
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/21/trunk/tests/data/empty.tta
+END
+bad-POPM-frame.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/21/trunk/tests/data/bad-POPM-frame.mp3
+END
+multipagecomment.ogg
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/21/trunk/tests/data/multipagecomment.ogg
+END
+mac-399.ape
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/21/trunk/tests/data/mac-399.ape
+END
+oldtag.apev2
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/21/trunk/tests/data/oldtag.apev2
+END
+bad-xing.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/21/trunk/tests/data/bad-xing.mp3
+END
+has-tags.m4a
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/21/trunk/tests/data/has-tags.m4a
+END
+64bit.mp4
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/47/trunk/tests/data/64bit.mp4
+END
+mac-390-hdr.ape
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/21/trunk/tests/data/mac-390-hdr.ape
+END
+brokentag.apev2
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/21/trunk/tests/data/brokentag.apev2
+END
+CVE-2007-4619-12.flac
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/21/trunk/tests/data/CVE-2007-4619-12.flac
+END
+silence-44-s-v1.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/21/trunk/tests/data/silence-44-s-v1.mp3
+END
+empty.oggflac
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/21/trunk/tests/data/empty.oggflac
+END
+multipage-setup.ogg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/21/trunk/tests/data/multipage-setup.ogg
+END
+no-tags.3g2
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/21/trunk/tests/data/no-tags.3g2
+END
+sv5_header.mpc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/21/trunk/tests/data/sv5_header.mpc
+END
+silence-1.wma
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/21/trunk/tests/data/silence-1.wma
+END
+click.mpc
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/21/trunk/tests/data/click.mpc
+END
+silence-2.wma
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/21/trunk/tests/data/silence-2.wma
+END
+multiplexed.spx
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/21/trunk/tests/data/multiplexed.spx
+END
+silence-3.wma
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/21/trunk/tests/data/silence-3.wma
+END
+empty.spx
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/21/trunk/tests/data/empty.spx
+END
+CVE-2007-4619-2.flac
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/21/trunk/tests/data/CVE-2007-4619-2.flac
+END
+empty.ogg
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/21/trunk/tests/data/empty.ogg
+END
+silence-44-s.flac
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/21/trunk/tests/data/silence-44-s.flac
+END
+truncated-64bit.mp4
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/21/trunk/tests/data/truncated-64bit.mp4
+END
+id3v22-test.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/21/trunk/tests/data/id3v22-test.mp3
+END
+issue_29.wma
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/59/trunk/tests/data/issue_29.wma
+END
+apev2-lyricsv2.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/21/trunk/tests/data/apev2-lyricsv2.mp3
+END
+no-tags.m4a
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/21/trunk/tests/data/no-tags.m4a
+END
+emptyfile.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/21/trunk/tests/data/emptyfile.mp3
+END
+almostempty.mpc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/50/trunk/tests/data/almostempty.mpc
+END
+bad-TYER-frame.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/21/trunk/tests/data/bad-TYER-frame.mp3
+END
+sample.oggtheora
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/21/trunk/tests/data/sample.oggtheora
+END
+vbri.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/21/trunk/tests/data/vbri.mp3
+END
+sv4_header.mpc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/21/trunk/tests/data/sv4_header.mpc
+END
+silence-44-s.wv
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/21/trunk/tests/data/silence-44-s.wv
+END
+silence-44-s-mpeg25.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/73/trunk/tests/data/silence-44-s-mpeg25.mp3
+END
+xing.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/21/trunk/tests/data/xing.mp3
+END
+silence-44-s.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/21/trunk/tests/data/silence-44-s.mp3
+END
+CVE-2007-4619-1.flac
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/21/trunk/tests/data/CVE-2007-4619-1.flac
+END
+issue_21.id3
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/53/trunk/tests/data/issue_21.id3
+END
+no-tags.flac
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/21/trunk/tests/data/no-tags.flac
+END
+silence-44-s-mpeg2.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/73/trunk/tests/data/silence-44-s-mpeg2.mp3
+END
