@@ -18,6 +18,7 @@
 	if( self )
 	{
 		debugLevel = 0;
+		writingInProgress = FALSE;
 		mediaPlayer = [[MediaPlayer alloc] init];
 		[mediaPlayer setCallback:self selector:@selector(updateCallback:)];	
 	
@@ -48,14 +49,13 @@
     [super dealloc];
 }
 
-#define ECHO_MSG 1
-#define READ_TIMEOUT 15.0
+#define READ_TIMEOUT -1.0
 #define READ_TIMEOUT_EXTENSION 10.0
-#define WRITE_TIMEOUT 15.0
+#define WRITE_TIMEOUT -1.0
 
 - (void)onSocket:(AsyncSocket *)sock didConnectToHost:(NSString *)host port:(UInt16)port
 {
-	if(debugLevel > 2 ) {	
+	if(debugLevel > -2 ) {	
 		NSLog(@"Accepted client %@:%hu", host, port);
 	}
 	[bufferedData setLength:0];
@@ -63,13 +63,9 @@
 	[sock readDataWithTimeout:READ_TIMEOUT tag:0];
 }
 
-- (void)onSocket:(AsyncSocket *)sock didWriteDataWithTag:(long)tag
-{
-}
-
 - (void)onSocket:(AsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag
 {	
-	if(debugLevel > 2 ) {
+	if(debugLevel > -1 ) {
 		NSLog( @"didReadData length = %d\n", [data length] );
 	}
 	//Parse buffer and play the buffer
@@ -78,25 +74,30 @@
 	if(debugLevel > 2 ) {
 		NSLog( @"bufferedData length = %d\n", [bufferedData length] );
 	}
-	
-	[sock readDataWithTimeout:READ_TIMEOUT tag:0];	
 }
 
 -(void) sendResponse:(AsyncSocket *)sock {
-	Response *response = [[[Response builder] setReturnCode:1] build];
+	NSLog(@"sendResponse called");
 	
+	Response *response = [[[Response builder] setReturnCode:1] build];
 	NSData *data = [response data];
 
 	long length = [data length];
-	NSData *length_data = [[NSData alloc] initWithBytes:(void *)&length length:sizeof( length )];	
-	[sock writeData:(NSData *)length_data withTimeout:WRITE_TIMEOUT tag:0];
-	//[length_data release];
+	NSMutableData *data_to_send = [[NSMutableData alloc] initWithBytes:(void *)&length length:sizeof( length )];
+	[data_to_send appendData:data];
+	NSData* receivedData = [data_to_send retain];
+	
+	writingInProgress = TRUE;
+	[sock writeData:(NSData *)receivedData withTimeout:WRITE_TIMEOUT tag:0];
+	NSLog(@"sendResponse %d bytes", [receivedData length]);
 
-	[sock writeData:(NSData *)data withTimeout:WRITE_TIMEOUT tag:0];
 	//[data release];
+	[data_to_send release];
+	[receivedData release];
 }
 
 -(void) updateCallback:(NSData *)data {
+	NSLog(@"updateCallback called");
 	//The play is done
 	//Send the response back to client
 	AsyncSocket *sock = (AsyncSocket *) data;
@@ -109,6 +110,7 @@
 - (void) play:(AsyncSocket *)sock {
 	NSLog( @"play mediaPlayer.currentSession = %d bufferedData.length =%d\n" , mediaPlayer.currentSession, bufferedData.length );
 	
+	BOOL needMoreData = TRUE;
 	while( mediaPlayer.currentSession == 0 && bufferedData.length >= sizeof( unsigned long ) )
 	{
 		unsigned long bufferLength = 0;
@@ -125,13 +127,14 @@
 			Control *control = [Control parseFromData: [bufferedData subdataWithRange:range]];
 			
 			if( control ) {
-				NSLog( @"Calling playData\n" );
+				NSLog( @"Calling playData(%d)\n",control.sequence );
 				ret = [mediaPlayer playData:control.data sock:sock];
 			}
 
 			int offset = sizeof( unsigned long ) + bufferLength;
 			NSRange remaining_range = { offset,  bufferedData.length - offset };
 			[bufferedData setData:[bufferedData subdataWithRange:remaining_range]];
+			needMoreData = FALSE;
 		}
 		else {
 			break;
@@ -144,23 +147,49 @@
 		else {
 			//TODO: Return response with "failed"
 			[self sendResponse:sock];
+			needMoreData = TRUE;
 		}
 
 	}
-	NSLog( @"Returning" );
+	NSLog( @"play returning" );
+	if( needMoreData ) {
+		if( !writingInProgress )
+		{
+			NSLog( @"readDataWithTimeout" );
+			[sock readDataWithTimeout:READ_TIMEOUT tag:0];
+		}
+	}
 }
 
 - (NSTimeInterval)onSocket:(AsyncSocket *)sock
   shouldTimeoutReadWithTag:(long)tag
 				   elapsed:(NSTimeInterval)elapsed
-				 bytesDone:(CFIndex)length
-{
+				 bytesDone:(CFIndex)length {
 	if(elapsed <= READ_TIMEOUT)
 	{
 		return READ_TIMEOUT_EXTENSION;
 	}
 	
 	return 0.0;
+}
+
+- (NSTimeInterval)onSocket:(AsyncSocket *)sock
+ shouldTimeoutWriteWithTag:(long)tag
+				   elapsed:(NSTimeInterval)elapsed
+				 bytesDone:(CFIndex)length {
+	NSLog( @"shouldTimeoutWriteWithTag\n" );
+	return 10.0;
+}
+
+- (void)onSocket:(AsyncSocket *)sock didWriteDataWithTag:(long)tag {
+	NSLog(@"didWriteDataWithTag");
+	[sock readDataWithTimeout:READ_TIMEOUT tag:0];	
+	writingInProgress = FALSE;
+}
+
+
+- (void)onSocket:(AsyncSocket *)sock didWritePartialDataOfLength:(CFIndex)partialLength tag:(long)tag {
+	NSLog(@"didWritePartialDataOfLength: %d", partialLength );	
 }
 
 - (void)onSocket:(AsyncSocket *)sock willDisconnectWithError:(NSError *)err

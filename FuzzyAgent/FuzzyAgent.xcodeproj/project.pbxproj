@@ -6,6 +6,21 @@
 	objectVersion = 45;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		5FFE3CB5114B3215002F5E79 /* FuzzyAgentPackage */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5FFE3CB9114B3229002F5E79 /* Build configuration list for PBXAggregateTarget "FuzzyAgentPackage" */;
+			buildPhases = (
+				5FFE3CBF114B326A002F5E79 /* ShellScript */,
+			);
+			dependencies = (
+				5FFE3CBB114B324B002F5E79 /* PBXTargetDependency */,
+			);
+			name = FuzzyAgentPackage;
+			productName = FuzzyAgentPackage;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* FuzzyAgentAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FuzzyAgentAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -53,6 +68,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5F88E81E114607A700EFE0D5;
 			remoteInfo = FuzzyAgentTests;
+		};
+		5FFE3CBA114B324B002F5E79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6058900D05DD3D006BFB54 /* FuzzyAgent */;
+			remoteInfo = FuzzyAgent;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -289,6 +311,7 @@
 				1D6058900D05DD3D006BFB54 /* FuzzyAgent */,
 				5F88E80A1146074D00EFE0D5 /* FuzzyAgentTesting */,
 				5F88E81E114607A700EFE0D5 /* FuzzyAgentTests */,
+				5FFE3CB5114B3215002F5E79 /* FuzzyAgentPackage */,
 			);
 		};
 /* End PBXProject section */
@@ -340,6 +363,19 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		5FFE3CBF114B326A002F5E79 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# compress application.\n/bin/mkdir $CONFIGURATION_BUILD_DIR/Payload\n/bin/cp -R $CONFIGURATION_BUILD_DIR/FuzzyAgent.app $CONFIGURATION_BUILD_DIR/Payload\n/bin/cp Images/Icon.png $CONFIGURATION_BUILD_DIR/iTunesArtwork\ncd $CONFIGURATION_BUILD_DIR\n# zip up the FuzzyAgent directory\n/usr/bin/zip -r FuzzyAgent.ipa Payload iTunesArtwork";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -382,6 +418,11 @@
 			isa = PBXTargetDependency;
 			target = 5F88E81E114607A700EFE0D5 /* FuzzyAgentTests */;
 			targetProxy = 5F88E825114607BB00EFE0D5 /* PBXContainerItemProxy */;
+		};
+		5FFE3CBB114B324B002F5E79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6058900D05DD3D006BFB54 /* FuzzyAgent */;
+			targetProxy = 5FFE3CBA114B324B002F5E79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -510,6 +551,27 @@
 			};
 			name = Release;
 		};
+		5FFE3CB6114B3215002F5E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = FuzzyAgentPackage;
+			};
+			name = Debug;
+		};
+		5FFE3CB7114B3215002F5E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = FuzzyAgentPackage;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -564,6 +626,15 @@
 			buildConfigurations = (
 				5F88E822114607A800EFE0D5 /* Debug */,
 				5F88E823114607A800EFE0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FFE3CB9114B3229002F5E79 /* Build configuration list for PBXAggregateTarget "FuzzyAgentPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FFE3CB6114B3215002F5E79 /* Debug */,
+				5FFE3CB7114B3215002F5E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

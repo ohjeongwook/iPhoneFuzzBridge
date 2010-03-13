@@ -53,16 +53,20 @@ BOOL Control_AudioTypesIsValidValue(Control_AudioTypes value);
 @interface Control : PBGeneratedMessage {
 @private
   BOOL hasOpcode_:1;
+  BOOL hasSequence_:1;
   BOOL hasType_:1;
   BOOL hasData_:1;
   int32_t opcode;
+  int32_t sequence;
   int32_t type;
   NSData* data;
 }
 - (BOOL) hasOpcode;
+- (BOOL) hasSequence;
 - (BOOL) hasType;
 - (BOOL) hasData;
 @property (readonly) int32_t opcode;
+@property (readonly) int32_t sequence;
 @property (readonly) int32_t type;
 @property (readonly, retain) NSData* data;
 
@@ -104,6 +108,11 @@ BOOL Control_AudioTypesIsValidValue(Control_AudioTypes value);
 - (int32_t) opcode;
 - (Control_Builder*) setOpcode:(int32_t) value;
 - (Control_Builder*) clearOpcode;
+
+- (BOOL) hasSequence;
+- (int32_t) sequence;
+- (Control_Builder*) setSequence:(int32_t) value;
+- (Control_Builder*) clearSequence;
 
 - (BOOL) hasType;
 - (int32_t) type;

@@ -17,6 +17,7 @@
 	MediaPlayer *mediaPlayer;
 	NSMutableData *bufferedData;
 	int debugLevel;
+	BOOL writingInProgress;
 }
 
 @property (nonatomic, retain) NSMutableArray *connectedSockets;

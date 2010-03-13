@@ -2854,6 +2854,7 @@ Failed:
 
 			// Write.
 			CFIndex bytesWritten = CFWriteStreamWrite(theWriteStream, writestart, bytesToWrite);
+			NSLog(@"bytesWritten = %d/%d to %@\n", bytesWritten, bytesToWrite, theWriteStream );
 
 			// Unset the "can accept bytes" flag
 			theFlags &= ~kSocketCanAcceptBytes;
@@ -2876,6 +2877,7 @@ Failed:
 			}
 		}
 
+		NSLog(@"totalBytesWritten = %d done=%d\n", totalBytesWritten, done );
 		if(done)
 		{
 			[self completeCurrentWrite];

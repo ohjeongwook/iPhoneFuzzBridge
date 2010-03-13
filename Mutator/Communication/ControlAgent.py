@@ -4,6 +4,7 @@ import struct
 
 class iPhonePlayer:
 	DebugLevel = 0
+	sequence = 0
 	def __init__( self, host, port ):
 		#Connect to remote host
 		addr = ( host, port )
@@ -24,6 +25,7 @@ class iPhonePlayer:
 			control = FuzzyAgent_pb2.Control()
 			control.opcode = 1
 			control.type = 2
+			control.sequence = self.sequence
 			fd = open( filename )
 			control.data = fd.read()
 			fd.close()
@@ -32,19 +34,20 @@ class iPhonePlayer:
 			#Send the data
 			length_header = struct.pack("I", len(data) )
 			if self.DebugLevel > 0:
-				print "Sending ", len( length_header )
+				print "Sending ", len( length_header ) , self.sequence
 			self.sock.send( length_header )
 			if self.DebugLevel > 0:
 				print "Sending data", len(data)
 			self.sock.send( data )
 			if self.DebugLevel > 0:
-				print "Waiting Response"
+				print "Waiting Response", self.sequence
 			response_length_buffer = self.sock.recv( 4 )
 			response_length = struct.unpack("I", response_length_buffer )[0]
 			if self.DebugLevel > 0:
 				print "Received data ", response_length
 			response_data = self.sock.recv( response_length )
 			#TODO: parse the response
+			self.sequence+=1
 
 if __name__ == "__main__":
 	import sys

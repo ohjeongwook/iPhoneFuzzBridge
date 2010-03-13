@@ -302,9 +302,7 @@ def fuzz_flac_tags(comments, fh, numtofuzz):
 	return fh
 
 def fuzz_qt_atoms(oldatoms, numtofuzz):
-
 	newatoms = oldatoms
-
 	print "mangling %d tags"%numtofuzz
 	for i in range(numtofuzz):
 		manglekey = random.choice(qtatoms)
@@ -658,6 +656,6 @@ def Fuzz( iphone_player, ops, args ):
 parser = get_options()
 (ops, args) = parser.parse_args()
 iphone_player = ControlAgent.iPhonePlayer( ops.hostname, ops.port )
+iphone_player.SetDebugLevel( 10 )
 while 1:
 	Fuzz( iphone_player, ops, args )
-

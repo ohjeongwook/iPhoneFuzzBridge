@@ -1,6 +1,7 @@
 message Control {
   required int32 opcode = 1;
-  required int32 type = 2;
+  required int32 sequence = 2;
+  required int32 type = 3;
   enum AudioTypes {
     AudioFormatLinearPCM = 1;
     AudioFormatAC3 = 2;
@@ -35,7 +36,7 @@ message Control {
     AudioFormatMicrosoftGSM = 31;
     AudioFormatAES3 = 32;
   }
-  required bytes data = 3;
+  required bytes data = 4;
 }
 
 message Response

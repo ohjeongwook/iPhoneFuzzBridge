@@ -21,6 +21,7 @@ static PBExtensionRegistry* extensionRegistry = nil;
 
 @interface Control ()
 @property int32_t opcode;
+@property int32_t sequence;
 @property int32_t type;
 @property (retain) NSData* data;
 @end
@@ -34,6 +35,13 @@ static PBExtensionRegistry* extensionRegistry = nil;
   hasOpcode_ = !!value;
 }
 @synthesize opcode;
+- (BOOL) hasSequence {
+  return !!hasSequence_;
+}
+- (void) setHasSequence:(BOOL) value {
+  hasSequence_ = !!value;
+}
+@synthesize sequence;
 - (BOOL) hasType {
   return !!hasType_;
 }
@@ -55,6 +63,7 @@ static PBExtensionRegistry* extensionRegistry = nil;
 - (id) init {
   if ((self = [super init])) {
     self.opcode = 0;
+    self.sequence = 0;
     self.type = 0;
     self.data = [NSData data];
   }
@@ -76,6 +85,9 @@ static Control* defaultControlInstance = nil;
   if (!self.hasOpcode) {
     return NO;
   }
+  if (!self.hasSequence) {
+    return NO;
+  }
   if (!self.hasType) {
     return NO;
   }
@@ -88,11 +100,14 @@ static Control* defaultControlInstance = nil;
   if (self.hasOpcode) {
     [output writeInt32:1 value:self.opcode];
   }
+  if (self.hasSequence) {
+    [output writeInt32:2 value:self.sequence];
+  }
   if (self.hasType) {
-    [output writeInt32:2 value:self.type];
+    [output writeInt32:3 value:self.type];
   }
   if (self.hasData) {
-    [output writeData:3 value:self.data];
+    [output writeData:4 value:self.data];
   }
   [self.unknownFields writeToCodedOutputStream:output];
 }
@@ -106,11 +121,14 @@ static Control* defaultControlInstance = nil;
   if (self.hasOpcode) {
     size += computeInt32Size(1, self.opcode);
   }
+  if (self.hasSequence) {
+    size += computeInt32Size(2, self.sequence);
+  }
   if (self.hasType) {
-    size += computeInt32Size(2, self.type);
+    size += computeInt32Size(3, self.type);
   }
   if (self.hasData) {
-    size += computeDataSize(3, self.data);
+    size += computeDataSize(4, self.data);
   }
   size += self.unknownFields.serializedSize;
   memoizedSerializedSize = size;
@@ -229,6 +247,9 @@ BOOL Control_AudioTypesIsValidValue(Control_AudioTypes value) {
   if (other.hasOpcode) {
     [self setOpcode:other.opcode];
   }
+  if (other.hasSequence) {
+    [self setSequence:other.sequence];
+  }
   if (other.hasType) {
     [self setType:other.type];
   }
@@ -261,10 +282,14 @@ BOOL Control_AudioTypesIsValidValue(Control_AudioTypes value) {
         break;
       }
       case 16: {
+        [self setSequence:[input readInt32]];
+        break;
+      }
+      case 24: {
         [self setType:[input readInt32]];
         break;
       }
-      case 26: {
+      case 34: {
         [self setData:[input readData]];
         break;
       }
@@ -285,6 +310,22 @@ BOOL Control_AudioTypesIsValidValue(Control_AudioTypes value) {
 - (Control_Builder*) clearOpcode {
   result.hasOpcode = NO;
   result.opcode = 0;
+  return self;
+}
+- (BOOL) hasSequence {
+  return result.hasSequence;
+}
+- (int32_t) sequence {
+  return result.sequence;
+}
+- (Control_Builder*) setSequence:(int32_t) value {
+  result.hasSequence = YES;
+  result.sequence = value;
+  return self;
+}
+- (Control_Builder*) clearSequence {
+  result.hasSequence = NO;
+  result.sequence = 0;
   return self;
 }
 - (BOOL) hasType {

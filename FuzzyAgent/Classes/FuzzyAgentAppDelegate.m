@@ -15,8 +15,6 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     // Override point for customization after application launch
     [window makeKeyAndVisible];
-	
-	controlServer = [[ControlServer alloc] init];
 }
 
 - (void)dealloc {
