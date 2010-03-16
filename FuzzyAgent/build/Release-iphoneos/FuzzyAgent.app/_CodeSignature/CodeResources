@@ -12,9 +12,17 @@
 		<data>
 		2TfqZWQcI/rcg2FjCeWw4RrMWAY=
 		</data>
+		<key>Icon.png</key>
+		<data>
+		DTWQrWgDC7sJ0D2bcFc3tOBqUAY=
+		</data>
+		<key>MainView.nib</key>
+		<data>
+		SwYmTo97gED4vqzd0Jot8dEhGdw=
+		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		sN7x5SrKE4GcCFnmHvj6F7YPkSk=
+		Y/BUd9Cxh5hsdaSmHxpC5M+ZHQI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -23,6 +31,10 @@
 		<key>embedded.mobileprovision</key>
 		<data>
 		pOxztg7smVWesJtWv3SMyop++5g=
+		</data>
+		<key>test.png</key>
+		<data>
+		HTNBgmY9TLTvedFua8C+kK6tmcA=
 		</data>
 	</dict>
 	<key>rules</key>

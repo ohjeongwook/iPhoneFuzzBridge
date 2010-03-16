@@ -11,6 +11,8 @@
 @implementation ControlServer
 
 @synthesize mediaPlayer;
+@synthesize imageView;
+@synthesize imageViewer;
 
 -(id) init {
 	self = [super init];
@@ -19,7 +21,8 @@
 	{
 		debugLevel = 0;
 		writingInProgress = FALSE;
-		mediaPlayer = [[MediaPlayer alloc] init];
+		imageViewer = [[ImageViewer alloc] init];
+		mediaPlayer = [[AudioPlayer alloc] init];
 		[mediaPlayer setCallback:self selector:@selector(updateCallback:)];	
 	
 		bufferedData = [[NSMutableData alloc] initWithData:@""];
@@ -49,7 +52,11 @@
     [super dealloc];
 }
 
-#define READ_TIMEOUT -1.0
+- (void) setImageViewControl:(UIImageView *)imageView {
+	self.imageView = imageView;
+}
+
+#define READ_TIMEOUT 15.0
 #define READ_TIMEOUT_EXTENSION 10.0
 #define WRITE_TIMEOUT -1.0
 
@@ -109,7 +116,7 @@
 
 - (void) play:(AsyncSocket *)sock {
 	NSLog( @"play mediaPlayer.currentSession = %d bufferedData.length =%d\n" , mediaPlayer.currentSession, bufferedData.length );
-	
+
 	BOOL needMoreData = TRUE;
 	while( mediaPlayer.currentSession == 0 && bufferedData.length >= sizeof( unsigned long ) )
 	{
@@ -127,8 +134,18 @@
 			Control *control = [Control parseFromData: [bufferedData subdataWithRange:range]];
 			
 			if( control ) {
-				NSLog( @"Calling playData(%d)\n",control.sequence );
-				ret = [mediaPlayer playData:control.data sock:sock];
+				switch ( control.opcode ) {
+					case Control_OpCodeAudio :
+						NSLog( @"Calling playData(%d)\n",control.sequence );	
+						ret = [mediaPlayer playData:control.data sock:sock];
+						break;
+					case Control_OpCodeGraphic :
+						NSLog( @"Show Graphics(%d)\n",control.sequence );
+						[imageViewer showImage: imageView data:control.data];
+						[self sendResponse:sock];
+						ret = TRUE;
+						break;
+				}
 			}
 
 			int offset = sizeof( unsigned long ) + bufferLength;

@@ -7,16 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MainView.h"
 #import "ControlServer.h"
 
 @interface FuzzyAgentAppDelegate : NSObject <UIApplicationDelegate>  {
     UIWindow *window;
-	ControlServer *controlServer;
+	MainView *viewController;
+	ControlServer *controlServer;	
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) ControlServer *controlServer;
+@property (nonatomic, retain) IBOutlet MainView *viewController;
 
 @end
 

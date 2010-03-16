@@ -58,7 +58,17 @@
 		5FFE369F11478FBA002F5E79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFE369B11478FB5002F5E79 /* CFNetwork.framework */; };
 		5FFE36CC11478FC6002F5E79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFE369B11478FB5002F5E79 /* CFNetwork.framework */; };
 		5FFE373011479760002F5E79 /* ControlServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE372F11479760002F5E79 /* ControlServer.m */; };
-		5FFE376311479992002F5E79 /* MediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE376211479992002F5E79 /* MediaPlayer.m */; };
+		5FFE376311479992002F5E79 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE376211479992002F5E79 /* AudioPlayer.m */; };
+		5FFE3D39114C0154002F5E79 /* ImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE3D38114C0154002F5E79 /* ImageViewer.m */; };
+		5FFE3D3A114C0154002F5E79 /* ImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE3D38114C0154002F5E79 /* ImageViewer.m */; };
+		5FFE3D4A114C0493002F5E79 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE3D49114C0493002F5E79 /* MainView.m */; };
+		5FFE3D4B114C0493002F5E79 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE3D49114C0493002F5E79 /* MainView.m */; };
+		5FFE3D78114F567C002F5E79 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE3D77114F567C002F5E79 /* MainView.xib */; };
+		5FFE3D79114F567C002F5E79 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE3D77114F567C002F5E79 /* MainView.xib */; };
+		5FFE3DA7114F5DEA002F5E79 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE3DA5114F5DEA002F5E79 /* Icon.png */; };
+		5FFE3DA8114F5DEA002F5E79 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE3DA6114F5DEA002F5E79 /* test.png */; };
+		5FFE3DA9114F5DEA002F5E79 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE3DA5114F5DEA002F5E79 /* Icon.png */; };
+		5FFE3DAA114F5DEA002F5E79 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE3DA6114F5DEA002F5E79 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,9 +116,16 @@
 		5FFE369B11478FB5002F5E79 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5FFE372E11479760002F5E79 /* ControlServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlServer.h; sourceTree = "<group>"; };
 		5FFE372F11479760002F5E79 /* ControlServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlServer.m; sourceTree = "<group>"; };
-		5FFE376111479992002F5E79 /* MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
-		5FFE376211479992002F5E79 /* MediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaPlayer.m; sourceTree = "<group>"; };
+		5FFE376111479992002F5E79 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		5FFE376211479992002F5E79 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
 		5FFE393D11488447002F5E79 /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolBuffers.h; path = "../../../Lib/ProtocolBuffers-2.2.0-Source/objectivec/Classes/ProtocolBuffers.h"; sourceTree = SOURCE_ROOT; };
+		5FFE3D37114C0154002F5E79 /* ImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewer.h; sourceTree = "<group>"; };
+		5FFE3D38114C0154002F5E79 /* ImageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewer.m; sourceTree = "<group>"; };
+		5FFE3D48114C0493002F5E79 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		5FFE3D49114C0493002F5E79 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		5FFE3D77114F567C002F5E79 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		5FFE3DA5114F5DEA002F5E79 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		5FFE3DA6114F5DEA002F5E79 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = Images/test.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FuzzyAgent-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FuzzyAgent-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,8 +182,12 @@
 				1D3623250D0F684500981E51 /* FuzzyAgentAppDelegate.m */,
 				5FFE372E11479760002F5E79 /* ControlServer.h */,
 				5FFE372F11479760002F5E79 /* ControlServer.m */,
-				5FFE376111479992002F5E79 /* MediaPlayer.h */,
-				5FFE376211479992002F5E79 /* MediaPlayer.m */,
+				5FFE376111479992002F5E79 /* AudioPlayer.h */,
+				5FFE376211479992002F5E79 /* AudioPlayer.m */,
+				5FFE3D37114C0154002F5E79 /* ImageViewer.h */,
+				5FFE3D38114C0154002F5E79 /* ImageViewer.m */,
+				5FFE3D48114C0493002F5E79 /* MainView.h */,
+				5FFE3D49114C0493002F5E79 /* MainView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -209,11 +230,14 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5FFE3DA5114F5DEA002F5E79 /* Icon.png */,
+				5FFE3DA6114F5DEA002F5E79 /* test.png */,
 				5F88E85E11462A8900EFE0D5 /* 440Hz-5sec.mp3 */,
 				5F88E85F11462A8900EFE0D5 /* 1000Hz-5sec.mp3 */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* FuzzyAgent-Info.plist */,
 				5F88E8191146074D00EFE0D5 /* FuzzyAgent-Info copy.plist */,
+				5FFE3D77114F567C002F5E79 /* MainView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -324,6 +348,9 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				5F88E86211462A8900EFE0D5 /* 440Hz-5sec.mp3 in Resources */,
 				5F88E86311462A8900EFE0D5 /* 1000Hz-5sec.mp3 in Resources */,
+				5FFE3D79114F567C002F5E79 /* MainView.xib in Resources */,
+				5FFE3DA9114F5DEA002F5E79 /* Icon.png in Resources */,
+				5FFE3DAA114F5DEA002F5E79 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +371,9 @@
 			files = (
 				5F88E86011462A8900EFE0D5 /* 440Hz-5sec.mp3 in Resources */,
 				5F88E86111462A8900EFE0D5 /* 1000Hz-5sec.mp3 in Resources */,
+				5FFE3D78114F567C002F5E79 /* MainView.xib in Resources */,
+				5FFE3DA7114F5DEA002F5E79 /* Icon.png in Resources */,
+				5FFE3DA8114F5DEA002F5E79 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +418,9 @@
 				5F83827811464B0E00DD43F1 /* FuzzyAgent.pb.m in Sources */,
 				5FFE367211478D95002F5E79 /* AsyncSocket.m in Sources */,
 				5FFE373011479760002F5E79 /* ControlServer.m in Sources */,
-				5FFE376311479992002F5E79 /* MediaPlayer.m in Sources */,
+				5FFE376311479992002F5E79 /* AudioPlayer.m in Sources */,
+				5FFE3D3A114C0154002F5E79 /* ImageViewer.m in Sources */,
+				5FFE3D4B114C0493002F5E79 /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +440,8 @@
 				5FFE367111478D95002F5E79 /* AsyncSocket.m in Sources */,
 				5F88E8371146084C00EFE0D5 /* FuzzyAgentTests.m in Sources */,
 				5F83827711464B0E00DD43F1 /* FuzzyAgent.pb.m in Sources */,
+				5FFE3D39114C0154002F5E79 /* ImageViewer.m in Sources */,
+				5FFE3D4A114C0493002F5E79 /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

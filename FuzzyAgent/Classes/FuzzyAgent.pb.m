@@ -163,6 +163,15 @@ static Control* defaultControlInstance = nil;
 }
 @end
 
+BOOL Control_OpCodeIsValidValue(Control_OpCode value) {
+  switch (value) {
+    case Control_OpCodeAudio:
+    case Control_OpCodeGraphic:
+      return YES;
+    default:
+      return NO;
+  }
+}
 BOOL Control_AudioTypesIsValidValue(Control_AudioTypes value) {
   switch (value) {
     case Control_AudioTypesAudioFormatLinearPcm:

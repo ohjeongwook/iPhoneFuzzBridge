@@ -7,6 +7,13 @@
 @class Response;
 @class Response_Builder;
 typedef enum {
+  Control_OpCodeAudio = 1,
+  Control_OpCodeGraphic = 2,
+} Control_OpCode;
+
+BOOL Control_OpCodeIsValidValue(Control_OpCode value);
+
+typedef enum {
   Control_AudioTypesAudioFormatLinearPcm = 1,
   Control_AudioTypesAudioFormatAc3 = 2,
   Control_AudioTypesAudioFormat60958Ac3 = 3,
