@@ -1,0 +1,14 @@
+1. The iPhone Fuzzing Agent is in:
+FuzzyAgent/build/Release-iphoneos
+
+2. Mutator Test
+Mutator/Communication
+edit TestAtOffice.sh
+sh TestAtOffice.sh
+
+3. Fuzzbox
+Mutator/fuzzbox
+
+edit *.sh files and use
+
+4. Sample audio files should be placed inside Mutator/Samples directory 
