@@ -1,0 +1,169 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* SpringBridge */ = {
+		activeExec = 0;
+		executables = (
+			5FB74FF1117548730064F419 /* SpringBridge */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 5FB74FF1117548730064F419 /* SpringBridge */;
+		activeSDKPreference = iphoneos3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SpringBridge */;
+		codeSenseManager = 5FB75006117548AB0064F419 /* Code sense */;
+		executables = (
+			5FB74FF1117548730064F419 /* SpringBridge */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293001824;
+			PBXWorkspaceStateSaveDate = 293001824;
+		};
+		perUserProjectItems = {
+			5F7F9FAF117A2FE2002E90F1 /* PBXTextBookmark */ = 5F7F9FAF117A2FE2002E90F1 /* PBXTextBookmark */;
+			5FB7503411754CD30064F419 /* PlistBookmark */ = 5FB7503411754CD30064F419 /* PlistBookmark */;
+			5FB7503511754CD30064F419 /* PBXTextBookmark */ = 5FB7503511754CD30064F419 /* PBXTextBookmark */;
+			5FB7503611754CD30064F419 /* PBXTextBookmark */ = 5FB7503611754CD30064F419 /* PBXTextBookmark */;
+			5FB750761175A5BA0064F419 /* PBXTextBookmark */ = 5FB750761175A5BA0064F419 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5FB75005117548AB0064F419 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* SpringBridge_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 185}";
+		};
+	};
+	547626A80E5E818700EAC233 /* SpringBridge.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 741}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 441}";
+		};
+	};
+	547626A90E5E818700EAC233 /* SpringBridge.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2821}}";
+			sepNavSelRange = "{4412, 0}";
+			sepNavVisRange = "{3481, 2202}";
+			sepNavWindowFrame = "{{15, 4}, {1271, 874}}";
+		};
+	};
+	5F7F9FAF117A2FE2002E90F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 547626A90E5E818700EAC233 /* SpringBridge.m */;
+		name = "SpringBridge.m: 135";
+		rLen = 0;
+		rLoc = 4412;
+		rType = 0;
+		vrLen = 2202;
+		vrLoc = 3481;
+	};
+	5FB74FF1117548730064F419 /* SpringBridge */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SpringBridge;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	5FB75005117548AB0064F419 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	5FB75006117548AB0064F419 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5FB7503411754CD30064F419 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	5FB7503511754CD30064F419 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* SpringBridge_Prefix.pch */;
+		name = "SpringBridge_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 0;
+	};
+	5FB7503611754CD30064F419 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 547626A80E5E818700EAC233 /* SpringBridge.h */;
+		name = "SpringBridge.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	5FB750761175A5BA0064F419 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 547626A90E5E818700EAC233 /* SpringBridge.m */;
+		name = "SpringBridge.m: 179";
+		rLen = 0;
+		rLoc = 6569;
+		rType = 0;
+		vrLen = 2161;
+		vrLoc = 5686;
+	};
+}
