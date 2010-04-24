@@ -8,9 +8,30 @@ from google.protobuf import service_reflection
 from google.protobuf import descriptor_pb2
 
 
+_CONTROL_OPCODE = descriptor.EnumDescriptor(
+  name='OpCode',
+  full_name='FuzzyAgent.Control.OpCode',
+  filename='OpCode',
+  values=[
+    descriptor.EnumValueDescriptor(
+      name='Audio', index=0, number=1,
+      options=None,
+      type=None),
+    descriptor.EnumValueDescriptor(
+      name='Graphic', index=1, number=2,
+      options=None,
+      type=None),
+    descriptor.EnumValueDescriptor(
+      name='URL', index=2, number=3,
+      options=None,
+      type=None),
+  ],
+  options=None,
+)
+
 _CONTROL_AUDIOTYPES = descriptor.EnumDescriptor(
   name='AudioTypes',
-  full_name='Control.AudioTypes',
+  full_name='FuzzyAgent.Control.AudioTypes',
   filename='AudioTypes',
   values=[
     descriptor.EnumValueDescriptor(
@@ -148,33 +169,33 @@ _CONTROL_AUDIOTYPES = descriptor.EnumDescriptor(
 
 _CONTROL = descriptor.Descriptor(
   name='Control',
-  full_name='Control',
+  full_name='FuzzyAgent.Control',
   filename='FuzzyAgent.proto',
   containing_type=None,
   fields=[
     descriptor.FieldDescriptor(
-      name='opcode', full_name='Control.opcode', index=0,
+      name='opcode', full_name='FuzzyAgent.Control.opcode', index=0,
       number=1, type=5, cpp_type=1, label=2,
       default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     descriptor.FieldDescriptor(
-      name='sequence', full_name='Control.sequence', index=1,
+      name='sequence', full_name='FuzzyAgent.Control.sequence', index=1,
       number=2, type=5, cpp_type=1, label=2,
       default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     descriptor.FieldDescriptor(
-      name='type', full_name='Control.type', index=2,
+      name='type', full_name='FuzzyAgent.Control.type', index=2,
       number=3, type=5, cpp_type=1, label=2,
       default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     descriptor.FieldDescriptor(
-      name='data', full_name='Control.data', index=3,
+      name='data', full_name='FuzzyAgent.Control.data', index=3,
       number=4, type=12, cpp_type=9, label=2,
       default_value="",
       message_type=None, enum_type=None, containing_type=None,
@@ -185,6 +206,7 @@ _CONTROL = descriptor.Descriptor(
   ],
   nested_types=[],  # TODO(robinson): Implement.
   enum_types=[
+    _CONTROL_OPCODE,
     _CONTROL_AUDIOTYPES,
   ],
   options=None)
@@ -192,12 +214,12 @@ _CONTROL = descriptor.Descriptor(
 
 _RESPONSE = descriptor.Descriptor(
   name='Response',
-  full_name='Response',
+  full_name='FuzzyAgent.Response',
   filename='FuzzyAgent.proto',
   containing_type=None,
   fields=[
     descriptor.FieldDescriptor(
-      name='return_code', full_name='Response.return_code', index=0,
+      name='return_code', full_name='FuzzyAgent.Response.return_code', index=0,
       number=1, type=5, cpp_type=1, label=2,
       default_value=0,
       message_type=None, enum_type=None, containing_type=None,
