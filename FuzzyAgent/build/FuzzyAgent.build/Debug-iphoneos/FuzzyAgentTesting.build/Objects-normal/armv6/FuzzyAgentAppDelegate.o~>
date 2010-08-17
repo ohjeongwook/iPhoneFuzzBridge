@@ -1,7 +1,0 @@
-In file included from /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.h:11,
-                 from /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m:9:
-/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/ControlServer.h:15: error: expected specifier-qualifier-list before 'MediaPlayer'
-/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m:28: warning: property 'controlServer' requires method '-controlServer' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m:28: warning: property 'controlServer' requires the method 'setControlServer:' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m:28: warning: property 'mediaPlayer' requires method '-mediaPlayer' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m:28: warning: property 'mediaPlayer' requires the method 'setMediaPlayer:' to be defined - use @synthesize, @dynamic or provide a method implementation

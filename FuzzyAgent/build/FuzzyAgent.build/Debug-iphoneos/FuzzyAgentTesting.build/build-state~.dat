@@ -1,292 +1,0 @@
-TFuzzyAgentTesting
-v7
-r0
-t289802417.579095
-cCheck dependencies
-cCpResource build/Debug-iphoneos/FuzzyAgent.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/Info.plist "FuzzyAgent-Info copy.plist"
-cCpResource build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgentTests.octest build/Debug-iphoneos/FuzzyAgentTests.octest
-cCompileXIB /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/MainWindow.xib
-cProcessPCH /var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FuzzyAgent_Prefix-bcufazaqyfmhvggvxlcjafztohoe/FuzzyAgent_Prefix.pch.gch FuzzyAgent_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/main.o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/FuzzyAgentAppDelegate.o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent normal armv6
-cGenerateDSYMFile /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app.dSYM /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent
-cProcessProductPackaging "/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision" /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/embedded.mobileprovision
-cTouch /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent.xcent
-cCodeSign /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
-c000000004B2FA6BF0000000000000110
-t1261414079
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
-c000000004B2B3B9F00000000000000DD
-t1261124511
-s221
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
-c000000004B2B3B9F00000000000001E5
-t1261124511
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004B2B537900000000005F4900
-t1261130617
-s6244608
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B2B551F0000000000501370
-t1261131039
-s5247856
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B2B54F40000000000001355
-t1261130996
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B2B61610000000000000788
-t1261134177
-s1928
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B2B63DA0000000001B3F450
-t1261134810
-s28570704
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.h
-c000000004B95CF76000000000000014F
-t1268109174
-s335
-i<UIKit/UIKit.h>
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m
-c000000004B95CF7600000000000001EC
-t1268109174
-s492
-i"FuzzyAgentAppDelegate.h"
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/FuzzyAgent_Prefix.pch
-c000000004B95CF7600000000000000BD
-t1268109174
-s189
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/MainWindow.xib
-c000000004B95CF760000000000001F62
-t1268109174
-s8034
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app
-t1268109617
-s374
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app.dSYM
-t1268109617
-s102
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent
-t1268109617
-s14816
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgentTests.octest
-t1268109615
-s272
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/Info.plist
-t1268109615
-s642
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/MainWindow.nib
-t1268109615
-s1348
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/PkgInfo
-t1268109615
-s8
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/ResourceRules.plist
-t1268109615
-s485
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/embedded.mobileprovision
-t1268109617
-s7170
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgentTests.octest
-c000000004B95D12E0000000000000110
-t1268109614
-s272
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent.xcent
-t1268109617
-s323
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/FuzzyAgent.LinkFileList
-c000000004B95D12E0000000000000167
-t1268109614
-s359
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/FuzzyAgentAppDelegate.o
-t1268109617
-s19244
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/main.o
-t1268109616
-s6632
-
-N/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/main.m
-c000000004B95CF76000000000000016B
-t1268109174
-s363
-i<UIKit/UIKit.h>
-
-N/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision
-c000000004B6C467A0000000000001C02
-t1265387130
-s7170
-
-N/var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FuzzyAgent_Prefix-bcufazaqyfmhvggvxlcjafztohoe/FuzzyAgent_Prefix.pch.gch
-t1268109616
-s7876792
-
-NFuzzyAgent-Info copy.plist
-c000000004B95CF76000000000000038D
-t1268109174
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies289802414#289802415#0(0"0(0#1#0"4300885448#0"0#
-
-CCodeSign /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app
-s289802417.413923
-e289802417.579051
-r1
-xCodeSign
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app
-lSLF07#2@44"CodeSign build/Debug-iphoneos/FuzzyAgent.app289802417#289802417#0(0"0(0#0#116"/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app4300885448#836"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: JeongWook Oh (83FMA7A92D)" --resource-rules=/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/ResourceRules.plist --entitlements /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent.xcent /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app0#
-
-CCompileC build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/FuzzyAgentAppDelegate.o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s289802416.933274
-e289802417.022273
-r1
-xCompileC
-xbuild/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/FuzzyAgentAppDelegate.o
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@120"Compile /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m289802416#289802417#0(0"0(0#0#112"/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m4300885448#2341"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-generated-files.hmap -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-own-target-headers.hmap -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-all-target-headers.hmap -iquote /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-project-headers.hmap -F/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/include -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/DerivedSources/armv6 -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/DerivedSources -include /var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FuzzyAgent_Prefix-bcufazaqyfmhvggvxlcjafztohoe/FuzzyAgent_Prefix.pch -c /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/Classes/FuzzyAgentAppDelegate.m -o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/FuzzyAgentAppDelegate.o0#
-
-CCompileC build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/main.o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s289802416.931720
-e289802416.995111
-r1
-xCompileC
-xbuild/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/main.o
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/main.m289802416#289802416#0(0"0(0#0#87"/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/main.m4300885448#2299"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-generated-files.hmap -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-own-target-headers.hmap -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-all-target-headers.hmap -iquote /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-project-headers.hmap -F/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/include -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/DerivedSources/armv6 -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/DerivedSources -include /var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FuzzyAgent_Prefix-bcufazaqyfmhvggvxlcjafztohoe/FuzzyAgent_Prefix.pch -c /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/main.m -o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/main.o0#
-
-CCompileXIB /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/MainWindow.xib
-s289802415.227108
-e289802415.751589
-r1
-xCompileXIB
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib289802415#289802415#0(0"0(0#0#95"/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/MainWindow.xib4300885448#597"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/MainWindow.nib /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/MainWindow.xib0#
-
-CCpResource build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgentTests.octest build/Debug-iphoneos/FuzzyAgentTests.octest
-s289802415.226338
-e289802415.232635
-r1
-xCpResource
-xbuild/Debug-iphoneos/FuzzyAgent.app/FuzzyAgentTests.octest
-xbuild/Debug-iphoneos/FuzzyAgentTests.octest
-lSLF07#2@48"Copy build/Debug-iphoneos/FuzzyAgentTests.octest289802415#289802415#0(0"0(0#0#124"/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgentTests.octest4300885448#602"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgentTests.octest /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app0#
-
-CCpResource build/Debug-iphoneos/FuzzyAgent.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
-s289802415.216367
-e289802415.226249
-r1
-xCpResource
-xbuild/Debug-iphoneos/FuzzyAgent.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
-lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist289802415#289802415#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist4300885448#569"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app0#
-
-CGenerateDSYMFile /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app.dSYM /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent
-s289802417.351791
-e289802417.387892
-r1
-xGenerateDSYMFile
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app.dSYM
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent
-lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/FuzzyAgent.app.dSYM build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent289802417#289802417#0(0"0(0#0#127"/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent4300885448#497"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent -o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app.dSYM0#
-
-CLd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent normal armv6
-s289802417.022431
-e289802417.351685
-r1
-xLd
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent
-xnormal
-xarmv6
-lSLF07#2@132"Link /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent289802417#289802417#0(0"0(0#0#0"4300885448#1127"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos -F/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos -filelist /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/Objects-normal/armv6/FuzzyAgent.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/FuzzyAgent0#
-
-CProcessInfoPlistFile /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/Info.plist "FuzzyAgent-Info copy.plist"
-s289802415.217593
-e289802415.224027
-r1
-xProcessInfoPlistFile
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/Info.plist
-xFuzzyAgent-Info copy.plist
-lSLF07#2@34"Process FuzzyAgent-Info copy.plist289802415#289802415#0(0"0(0#0#107"/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/FuzzyAgent-Info copy.plist4300885448#749"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "FuzzyAgent-Info copy.plist" -genpkginfo /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/ResourceRules.plist -o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/Info.plist0#
-
-CProcessPCH /var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FuzzyAgent_Prefix-bcufazaqyfmhvggvxlcjafztohoe/FuzzyAgent_Prefix.pch.gch FuzzyAgent_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s289802415.751722
-e289802416.931516
-r1
-xProcessPCH
-x/var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FuzzyAgent_Prefix-bcufazaqyfmhvggvxlcjafztohoe/FuzzyAgent_Prefix.pch.gch
-xFuzzyAgent_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile FuzzyAgent_Prefix.pch289802415#289802416#0(0"0(0#0#102"/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/FuzzyAgent_Prefix.pch4300885448#2145"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-generated-files.hmap -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-own-target-headers.hmap -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-all-target-headers.hmap -iquote /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent-project-headers.hmap -F/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/include -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/DerivedSources/armv6 -I/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/DerivedSources -c /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/FuzzyAgent_Prefix.pch -o /var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FuzzyAgent_Prefix-bcufazaqyfmhvggvxlcjafztohoe/FuzzyAgent_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision" /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/embedded.mobileprovision
-s289802417.388023
-e289802417.390525
-r1
-xProcessProductPackaging
-x/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/embedded.mobileprovision
-lSLF07#2@201"ProcessProductPackaging "/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision" build/Debug-iphoneos/FuzzyAgent.app/embedded.mobileprovision289802417#289802417#0(0"0(0#0#141"/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/embedded.mobileprovision4300885448#516"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision" -o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent.xcent
-s289802417.393893
-e289802417.413776
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent.xcent
-lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent.xcent289802417#289802417#0(0"0(0#0#159"/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent.xcent4300885448#534"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/FuzzyAgent.build/Debug-iphoneos/FuzzyAgentTesting.build/FuzzyAgent.xcent0#
-
-CTouch /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app
-s289802417.390598
-e289802417.393800
-r1
-xTouch
-x/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app
-lSLF07#2@122"Touch /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app289802417#289802417#0(0"0(0#0#0"4300885448#351"    cd /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/FuzzyAgent/build/Debug-iphoneos/FuzzyAgent.app0#
-

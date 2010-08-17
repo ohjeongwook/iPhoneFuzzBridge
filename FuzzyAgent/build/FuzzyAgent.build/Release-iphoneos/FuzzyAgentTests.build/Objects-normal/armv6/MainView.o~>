@@ -1,2 +1,0 @@
-/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/Mogaby/FuzzyAgent/Classes/MainView.m:62: warning: property 'view' requires method '-view' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/jeongwookoh/Documents/Git/Projects/ResearchTools/iPhoneDev/Src/Mogaby/FuzzyAgent/Classes/MainView.m:62: warning: property 'view' requires the method 'setView:' to be defined - use @synthesize, @dynamic or provide a method implementation
