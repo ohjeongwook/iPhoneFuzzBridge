@@ -11,8 +11,10 @@
 @implementation ControlServer
 
 @synthesize mediaPlayer;
-@synthesize imageView;
 @synthesize imageViewer;
+@synthesize imageView;
+@synthesize mainView;
+@synthesize connectedSockets;
 
 -(id) init {
 	self = [super init];
@@ -33,7 +35,7 @@
 		
 		[listenSocket setRunLoopModes:[NSArray arrayWithObject:NSRunLoopCommonModes]];
 		
-		int port = 1234;
+		int port = 5555;
 		NSError *error = nil;
 		if( ![listenSocket acceptOnPort:port error:&error] )
 		{
@@ -42,6 +44,7 @@
 		}
 		
 		NSLog(@"Server started on port %hu", [listenSocket localPort]);
+		
 	}
 	return self;
 }
@@ -52,8 +55,13 @@
     [super dealloc];
 }
 
-- (void) setImageViewControl:(UIImageView *)imageView {
-	self.imageView = imageView;
+- (void) setImageViewControl:(UIImageView *)paramImageView {
+	self.imageView = paramImageView;
+}
+
+- (void) setMainViewControl:(MainView *)parmMainView {
+	self.mainView = parmMainView;
+	[mainView setCallback:self selector:@selector(updateCallback:)];	
 }
 
 #define READ_TIMEOUT 15.0
@@ -78,7 +86,7 @@
 	//Parse buffer and play the buffer
 	[bufferedData appendData: data];
 	[self play:sock];
-	if(debugLevel > 2 ) {
+	if(debugLevel > -1 ) {
 		NSLog( @"bufferedData length = %d\n", [bufferedData length] );
 	}
 }
@@ -118,7 +126,7 @@
 	NSLog( @"play mediaPlayer.currentSession = %d bufferedData.length =%d\n" , mediaPlayer.currentSession, bufferedData.length );
 
 	BOOL needMoreData = TRUE;
-	while( mediaPlayer.currentSession == 0 && bufferedData.length >= sizeof( unsigned long ) )
+	while( mediaPlayer.currentSession == 0 && mainView.currentSession == 0  && bufferedData.length >= sizeof( unsigned long ) )
 	{
 		unsigned long bufferLength = 0;
 		[bufferedData getBytes: &bufferLength length: sizeof(unsigned long)];
@@ -144,6 +152,10 @@
 						[imageViewer showImage: imageView data:control.data];
 						[self sendResponse:sock];
 						ret = TRUE;
+						break;
+					case Control_OpCodeUrl :
+						NSLog( @"Show URL(%d)\n",control.sequence );
+						ret = [mainView playData:control.data sock:sock];
 						break;
 				}
 			}
@@ -203,7 +215,6 @@
 	[sock readDataWithTimeout:READ_TIMEOUT tag:0];	
 	writingInProgress = FALSE;
 }
-
 
 - (void)onSocket:(AsyncSocket *)sock didWritePartialDataOfLength:(CFIndex)partialLength tag:(long)tag {
 	NSLog(@"didWritePartialDataOfLength: %d", partialLength );	
