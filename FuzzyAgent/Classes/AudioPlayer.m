@@ -46,6 +46,7 @@
 		[NSThread sleepForTimeInterval:0.1];
 	}
 	currentSession++;
+	NSLog(@"currentSession++ = %d", currentSession );
 
 	self.sock = sock;
 	NSLog(@"playData: %d bytes", [data length]);	
@@ -63,6 +64,8 @@
 	}
 	NSLog(@"play failed");
 	currentSession--;
+	NSLog(@"currentSession-- = %d", currentSession );
+
 	return FALSE;
 }
 
@@ -78,7 +81,8 @@
 	NSLog(@"Completed");
 	if (completed == YES) {
 		[aPlayer release];
-		currentSession--;
+		currentSession--; 
+		NSLog(@"currentSession-- = %d (audioPlayerDidFinishPlaying)", currentSession );
 		//call selector
 		if(delegate && callback) {
 			if([delegate respondsToSelector:self.callback]) {
@@ -86,7 +90,7 @@
 			}else {
 				NSLog(@"No response from delegate");
 			}
-		}	
+		}
 	}
 }
 
@@ -100,7 +104,8 @@
 			NSLog(@"No response from delegate");
 		}
 	}
-	currentSession--;	
+	//currentSession--;
+	//NSLog(@"currentSession-- = %d (audioPlayerDecodeErrorDidOccur)", currentSession );
 }
 
 - (void) setCallback:(id)delegateParam selector:(SEL)selector {
