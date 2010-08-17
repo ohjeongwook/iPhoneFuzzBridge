@@ -8,12 +8,26 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainView : UIViewController {
-	UIView *view;
+#import "AsyncSocket.h"
+
+@interface MainView : UIViewController<UIWebViewDelegate> {
 	UIImageView *imageView;
+	UIWebView *webView;
+	AsyncSocket *sock;	
+	id delegate;
+	SEL callback;
+	int currentSession;	
 }
 
-@property (nonatomic, retain ) IBOutlet UIView *view;
 @property (nonatomic, retain ) IBOutlet UIImageView *imageView;
+@property (nonatomic, retain ) IBOutlet UIWebView *webView;
+@property (nonatomic, retain) id delegate;
+@property (nonatomic) SEL callback;
+@property (nonatomic, retain) AsyncSocket *sock;
+@property () int currentSession;
+
+- (BOOL) playData:(NSData *)data sock:(AsyncSocket *)sock;
+- (void) webViewDidFinishLoad:(UIWebView *)webView;
+- (void) setCallback:(id)delegateParam selector:(SEL)selector;
 
 @end

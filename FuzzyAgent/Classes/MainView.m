@@ -12,40 +12,28 @@
 @implementation MainView
 
 @synthesize imageView;
-
-/*
- CGRect myImageRect = CGRectMake(0.0f, 0.0f, 320.0f, 109.0f);
- UIImageView *myImage = [[UIImageView alloc] initWithFrame:myImageRect];
- NSString *testFilePath = [[NSBundle mainBundle] pathForResource: @"test.png" ofType: @"png"];
- //[myImage setImage:[UIImage imageNamed:@"test.png"]];
- UIImage *image=[[UIImage alloc] initWithContentsOfFile:testFilePath];
- [imageView setImage:image];
- imageView.opaque = YES; // explicitly opaque for performance
- //[imageView initWithImage: myImage];
- [myImage release];	
-*/
+@synthesize webView;
+@synthesize currentSession;
+@synthesize delegate;
+@synthesize callback;
+@synthesize sock;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	NSString *testFilePath = [[NSBundle mainBundle] pathForResource: @"test" ofType: @"png"];
+	self.currentSession = 0;	
+	/*
+	NSString *testFilePath = [[NSBundle mainBundle] pathForResource: @"Icon" ofType: @"png"];
 	NSLog( @"testFilePath = %@", testFilePath );
 	UIImage *image=[[UIImage alloc] initWithContentsOfFile:testFilePath];
 	NSLog( @"image = %@", image );
-	[imageView setImage:image];
-}
-
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-
-- (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
+	[imageView setImage:image];*/
 	
-	// Release any cached data, images, etc that aren't in use.
+	//TESTING:
+	NSLog( @"Show URL\n" );
+	NSString *URLStr = [[NSString alloc] initWithString:@"http:///192.168.1.8/out/out-u.pdf"];
+	NSURL *pdfURL = [NSURL URLWithString:URLStr];
+	[webView loadRequest:[NSURLRequest requestWithURL:pdfURL]];	
 }
 
 - (void)viewDidUnload {
@@ -55,8 +43,44 @@
 
 
 - (void)dealloc {
+	[webView release];
+	[imageView release];
     [super dealloc];
 }
 
+- (BOOL) playData:(NSData *)data sock:(AsyncSocket *)sock {
+	while( currentSession > 0 ) {
+		NSLog( @"CurrentSession=%d\n", currentSession );
+		[NSThread sleepForTimeInterval:0.1];
+	}
+	currentSession++;
+	NSLog(@"currentSession++ = %d", currentSession );
+	self.sock = sock;
+
+	NSString *URLStr = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+	NSURL *pdfURL = [NSURL URLWithString:URLStr];
+	[webView loadRequest:[NSURLRequest requestWithURL:pdfURL]];
+	return TRUE;
+}
+
+- (void) webViewDidFinishLoad:(UIWebView *)webView
+{
+	NSLog( @"webViewDidFinishLoad" );
+	if( currentSession > 0 )
+		currentSession--; 
+	
+	if(delegate && callback) {
+		if([delegate respondsToSelector:self.callback]) {
+			[delegate performSelector:self.callback withObject:sock];
+		}else {
+			NSLog(@"No response from delegate");
+		}
+	}	
+}
+
+- (void) setCallback:(id)delegateParam selector:(SEL)selector {
+	self.delegate = delegateParam;
+	self.callback = selector;
+}
 
 @end
