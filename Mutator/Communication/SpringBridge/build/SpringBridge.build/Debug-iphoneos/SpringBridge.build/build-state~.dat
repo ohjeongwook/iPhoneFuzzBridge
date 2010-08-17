@@ -1,303 +1,0 @@
-TSpringBridge
-v7
-r0
-t292898961.836526
-cCheck dependencies
-cCpResource build/Debug-iphoneos/SpringBridge.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/Info.plist Info.plist
-cProcessPCH /var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpringBridge_Prefix-gkuhxzeyqhebwfdlzwvypcalxduz/SpringBridge_Prefix.pch.gch SpringBridge_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/Objects-normal/armv6/SpringBridge.o /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m normal armv6 objective-c com.apple.compilers.gcc.4_0
-cLd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge normal armv6
-cGenerateDSYMFile /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app.dSYM /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge
-cProcessProductPackaging "/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision" /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/embedded.mobileprovision
-cTouch /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/Entitlements.plist /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge.xcent
-cCodeSign /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk
-c000000004A42FA5A0000000000000110
-t1245903450
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/Entitlements.plist
-c00000000493E25EF00000000000000DD
-t1228809711
-s221
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/ResourceRules.plist
-c00000000493E25EF00000000000001E5
-t1228809711
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c000000004967D6EE000000000002DF40
-t1231541998
-s188224
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
-c00000000494867680000000000000425
-t1229481832
-s1061
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004967D3CF0000000000215BA0
-t1231541199
-s2186144
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004967D4FC0000000000197700
-t1231541500
-s1668864
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000493E0BE40000000000001355
-t1228803044
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004967C241000000000000067D
-t1231536705
-s1661
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004967D74500000000004724B0
-t1231542085
-s4662448
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/include/arpa/inet.h
-c00000000493E02590000000000001533
-t1228800601
-s5427
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/include/ctype.h
-c00000000493E02610000000000002C3A
-t1228800609
-s11322
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/include/netinet/in.h
-c00000000493DFA3600000000000052AA
-t1228798518
-s21162
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/include/objc/message.h
-c00000000493E06DE00000000000017F1
-t1228801758
-s6129
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/include/objc/runtime.h
-c00000000493E06DE0000000000004FE4
-t1228801758
-s20452
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/include/stdlib.h
-c00000000493E02610000000000002A75
-t1228800609
-s10869
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/include/sys/socket.h
-c00000000493DFA4000000000000055ED
-t1228798528
-s21997
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/include/unistd.h
-c00000000493E026100000000000053FF
-t1228800609
-s21503
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.h
-c000000004BC510AC00000000000001B9
-t1271206060
-s441
-i<UIKit/UIKit.h>
-i<AddressBook/AddressBook.h>
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m
-c000000004BC510AC0000000000001F0C
-t1271206060
-s7948
-i<objc/runtime.h>
-i<objc/message.h>
-i<sys/socket.h>
-i<netinet/in.h>
-i<arpa/inet.h>
-i<unistd.h>
-i<stdlib.h>
-i<ctype.h>
-i"SpringBridge.h"
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/SpringBridge_Prefix.pch
-c000000004BC510AC00000000000000B9
-t1271206060
-s185
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app
-t1271206161
-s306
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app.dSYM
-t1271206161
-s102
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/Info.plist
-t1271206158
-s614
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/PkgInfo
-t1271206158
-s8
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/ResourceRules.plist
-t1271206158
-s485
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge
-t1271206161
-s17104
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/embedded.mobileprovision
-t1271206161
-s7170
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/Objects-normal/armv6/SpringBridge.LinkFileList
-c000000004BC5110E00000000000000A6
-t1271206158
-s166
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/Objects-normal/armv6/SpringBridge.o
-t1271206160
-s28656
-
-N/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge.xcent
-t1271206161
-s325
-
-N/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision
-c000000004B6C467A0000000000001C02
-t1265387130
-s7170
-
-N/var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpringBridge_Prefix-gkuhxzeyqhebwfdlzwvypcalxduz/SpringBridge_Prefix.pch.gch
-t1271206159
-s7179680
-
-NInfo.plist
-c000000004BC510AC000000000000034A
-t1271206060
-s842
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies292898957#292898958#0(0"0(0#1#0"4300885448#0"0#
-
-CCodeSign /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app
-s292898961.240533
-e292898961.836440
-r1
-xCodeSign
-x/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app
-lSLF07#2@46"CodeSign build/Debug-iphoneos/SpringBridge.app292898961#292898961#0(0"0(0#0#108"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app4300885448#799"    cd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: JeongWook Oh (83FMA7A92D)" --resource-rules=/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/ResourceRules.plist --entitlements /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge.xcent /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app0#
-
-CCompileC build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/Objects-normal/armv6/SpringBridge.o /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m normal armv6 objective-c com.apple.compilers.gcc.4_0
-s292898959.816088
-e292898960.538781
-r1
-xCompileC
-xbuild/SpringBridge.build/Debug-iphoneos/SpringBridge.build/Objects-normal/armv6/SpringBridge.o
-x/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m: In function 'relayDataCallBack':
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:136: warning: no '+sharedInstance' method found
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:136: warning: (Messages without a matching method signature
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:136: warning: will be assumed to return 'id' and accept
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:136: warning: '...' as arguments.)
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:137: warning: no '-quitTopApplication' method found
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:140: warning: no '+sharedInstance' method found
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:145: warning: no '-allApplications' method found
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:146: warning: no '-roleIdentifier' method found
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:154: warning: no '-applicationsWithBundleIdentifier:' method found
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m: In function '-[SpringBridge launchTheApp:]':
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:165: warning: no '+sharedInstance' method found
-o/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:166: warning: no '-animateLaunchApplication:' method found
-lSLF07#2@101"Compile /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m292898959#292898960#0(1872"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m: In function 'relayDataCallBack':/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:136: warning: no '+sharedInstance' method found/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:136: warning: (Messages without a matching method signature/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:136: warning: will be assumed to return 'id' and accept/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:136: warning: '...' as arguments.)/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:137: warning: no '-quitTopApplication' method found/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:140: warning: no '+sharedInstance' method found/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:145: warning: no '-allApplications' method found/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:146: warning: no '-roleIdentifier' method found/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:154: warning: no '-applicationsWithBundleIdentifier:' method found/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m: In function '-[SpringBridge launchTheApp:]':/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:165: warning: no '+sharedInstance' method found/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m:166: warning: no '-animateLaunchApplication:' method found9(22@33"No '+sharedInstance' method found292898960#128#142#0(6@93"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m292898860#136#0#136#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)292898960#270#154#0(6@93"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m292898860#136#0#136#0#0"0(22@37"No '-quitTopApplication' method found292898960#703#146#0(6@93"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m292898860#137#0#137#0#19"no '*' method found0(22@33"No '+sharedInstance' method found292898960#849#142#0(6@93"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m292898860#140#0#140#0#19"no '*' method found0(22@34"No '-allApplications' method found292898960#991#143#0(6@93"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m292898860#145#0#145#0#19"no '*' method found0(22@33"No '-roleIdentifier' method found292898960#1134#142#0(6@93"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m292898860#146#0#146#0#19"no '*' method found0(22@52"No '-applicationsWithBundleIdentifier:' method found292898960#1276#161#0(6@93"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m292898860#154#0#154#0#19"no '*' method found0(22@33"No '+sharedInstance' method found292898960#1577#142#0(6@93"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m292898860#165#0#165#0#19"no '*' method found0(22@44"No '-animateLaunchApplication:' method found292898960#1719#153#0(6@93"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m292898860#166#0#166#0#19"no '*' method found0(0#0#93"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m4300885448#2204"    cd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.0 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=2.2.1 -iquote /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge-generated-files.hmap -I/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge-own-target-headers.hmap -I/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge-all-target-headers.hmap -iquote /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge-project-headers.hmap -F/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos -I/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/include -I/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/DerivedSources/armv6 -I/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/DerivedSources -include /var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpringBridge_Prefix-gkuhxzeyqhebwfdlzwvypcalxduz/SpringBridge_Prefix.pch -c /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Classes/SpringBridge.m -o /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/Objects-normal/armv6/SpringBridge.o0#
-
-CCpResource build/Debug-iphoneos/SpringBridge.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/ResourceRules.plist
-s292898958.049154
-e292898958.161714
-r1
-xCpResource
-xbuild/Debug-iphoneos/SpringBridge.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/ResourceRules.plist
-lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/ResourceRules.plist292898958#292898958#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/ResourceRules.plist4300885448#551"    cd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/ResourceRules.plist /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app0#
-
-CGenerateDSYMFile /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app.dSYM /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge
-s292898961.049677
-e292898961.185902
-r1
-xGenerateDSYMFile
-x/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app.dSYM
-x/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge
-lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/SpringBridge.app.dSYM build/Debug-iphoneos/SpringBridge.app/SpringBridge292898961#292898961#0(0"0(0#0#121"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge4300885448#473"    cd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge -o /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app.dSYM0#
-
-CLd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge normal armv6
-s292898960.538874
-e292898961.049529
-r1
-xLd
-x/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge
-xnormal
-xarmv6
-lSLF07#2@126"Link /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge292898960#292898961#0(0"0(0#0#0"4300885448#1115"    cd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge    setenv IPHONEOS_DEPLOYMENT_TARGET 2.2.1    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.0 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk -L/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos -F/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos -filelist /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/Objects-normal/armv6/SpringBridge.LinkFileList -mmacosx-version-min=10.5 -dead_strip -dynamiclib -miphoneos-version-min=2.2.1 -framework Foundation -framework UIKit -framework AddressBook -framework CoreGraphics -o /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/SpringBridge0#
-
-CProcessInfoPlistFile /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/Info.plist Info.plist
-s292898958.092607
-e292898958.125064
-r1
-xProcessInfoPlistFile
-x/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist292898958#292898958#0(0"0(0#0#81"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/Info.plist4300885448#697"    cd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/ResourceRules.plist -o /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/Info.plist0#
-
-CProcessPCH /var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpringBridge_Prefix-gkuhxzeyqhebwfdlzwvypcalxduz/SpringBridge_Prefix.pch.gch SpringBridge_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_0
-s292898958.161899
-e292898959.815886
-r1
-xProcessPCH
-x/var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpringBridge_Prefix-gkuhxzeyqhebwfdlzwvypcalxduz/SpringBridge_Prefix.pch.gch
-xSpringBridge_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@34"Precompile SpringBridge_Prefix.pch292898958#292898959#0(0"0(0#0#94"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/SpringBridge_Prefix.pch4300885448#2041"    cd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.0 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=2.2.1 -iquote /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge-generated-files.hmap -I/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge-own-target-headers.hmap -I/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge-all-target-headers.hmap -iquote /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge-project-headers.hmap -F/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos -I/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/include -I/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/DerivedSources/armv6 -I/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/DerivedSources -c /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/SpringBridge_Prefix.pch -o /var/folders/iP/iPC3kdFAEVKkzXabq8CjFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpringBridge_Prefix-gkuhxzeyqhebwfdlzwvypcalxduz/SpringBridge_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision" /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/embedded.mobileprovision
-s292898961.186020
-e292898961.203369
-r1
-xProcessProductPackaging
-x/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision
-x/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/embedded.mobileprovision
-lSLF07#2@203"ProcessProductPackaging "/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision" build/Debug-iphoneos/SpringBridge.app/embedded.mobileprovision292898961#292898961#0(0"0(0#0#133"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/embedded.mobileprovision4300885448#498"    cd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jeongwookoh/Library/MobileDevice/Provisioning Profiles/1BEBB654-2164-48F3-A8F0-51A6DF427227.mobileprovision" -o /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/Entitlements.plist /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge.xcent
-s292898961.224803
-e292898961.240453
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/Entitlements.plist
-x/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge.xcent
-lSLF07#2@192"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/Entitlements.plist build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge.xcent292898961#292898961#0(0"0(0#0#148"/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge.xcent4300885448#513"    cd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/SpringBridge.build/Debug-iphoneos/SpringBridge.build/SpringBridge.xcent0#
-
-CTouch /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app
-s292898961.203448
-e292898961.224705
-r1
-xTouch
-x/Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app
-lSLF07#2@114"Touch /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app292898961#292898961#0(0"0(0#0#0"4300885448#333"    cd /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jeongwookoh/Documents/Tmp/1/zataangstuff-read-only/SpringBridge/build/Debug-iphoneos/SpringBridge.app0#
-
