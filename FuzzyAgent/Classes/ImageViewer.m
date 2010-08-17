@@ -23,6 +23,7 @@
 -(void) showImage:(UIImageView *)imageView data:(NSData *)data {
 	UIImage *image=[[UIImage alloc] initWithData:data];
 	[imageView setImage:image];
+	[image release];
 }
 
 @end
