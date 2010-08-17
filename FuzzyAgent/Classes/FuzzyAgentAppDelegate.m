@@ -19,7 +19,8 @@
     [window makeKeyAndVisible];
 	
 	controlServer = [[ControlServer alloc] init];
-	[controlServer setImageViewControl:viewController.imageView];	
+	[controlServer setImageViewControl:viewController.imageView];
+	[controlServer setMainViewControl:viewController];
 }
 
 - (void)dealloc {
