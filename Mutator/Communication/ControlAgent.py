@@ -3,7 +3,7 @@ import FuzzyAgent_pb2
 import struct
 import string
 import sys
-sys.path.append(r'../SpringBridge/')
+sys.path.append(r'SpringBridge/')
 import Launcher
 import time
 
