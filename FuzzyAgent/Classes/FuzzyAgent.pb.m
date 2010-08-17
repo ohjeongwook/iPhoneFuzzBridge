@@ -167,6 +167,7 @@ BOOL Control_OpCodeIsValidValue(Control_OpCode value) {
   switch (value) {
     case Control_OpCodeAudio:
     case Control_OpCodeGraphic:
+    case Control_OpCodeUrl:
       return YES;
     default:
       return NO;

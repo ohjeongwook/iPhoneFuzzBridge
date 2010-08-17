@@ -9,6 +9,7 @@
 typedef enum {
   Control_OpCodeAudio = 1,
   Control_OpCodeGraphic = 2,
+  Control_OpCodeUrl = 3,
 } Control_OpCode;
 
 BOOL Control_OpCodeIsValidValue(Control_OpCode value);
