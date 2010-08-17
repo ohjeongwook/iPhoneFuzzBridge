@@ -83,7 +83,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D6058900D05DD3D006BFB54 /* FuzzyAgent */;
+			remoteGlobalIDString = 1D6058900D05DD3D006BFB54;
 			remoteInfo = FuzzyAgent;
 		};
 /* End PBXContainerItemProxy section */
@@ -610,13 +610,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JeongWook Oh (83FMA7A92D)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "/Users/jeongwookoh/Documents/iPhoneDev/Lib/ProtocolBuffers-2.2.0-Source/objectivec/Classes\n/Users/jeongwookoh/Documents/iPhoneDev/Lib/ProtocolBuffers-2.2.0-Source/objectivec/Classes";
+				HEADER_SEARCH_PATHS = "";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8F83E8B8-B20E-4B0A-A698-729A020EE664";
+				SDKROOT = iphoneos4.0;
+				USER_HEADER_SEARCH_PATHS = "/Users/jeongwookoh/Documents/iPhoneDev/Lib/ProtocolBuffers-2.2.0-Source/objectivec/Classes/";
 			};
 			name = Debug;
 		};
@@ -624,13 +627,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JeongWook Oh (83FMA7A92D)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "/Users/jeongwookoh/Documents/iPhoneDev/Lib/ProtocolBuffers-2.2.0-Source/objectivec/Classes\n/Users/jeongwookoh/Documents/iPhoneDev/Lib/ProtocolBuffers-2.2.0-Source/objectivec/Classes";
+				HEADER_SEARCH_PATHS = "";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8F83E8B8-B20E-4B0A-A698-729A020EE664";
+				SDKROOT = iphoneos4.0;
+				USER_HEADER_SEARCH_PATHS = "/Users/jeongwookoh/Documents/iPhoneDev/Lib/ProtocolBuffers-2.2.0-Source/objectivec/Classes/";
 			};
 			name = Release;
 		};
