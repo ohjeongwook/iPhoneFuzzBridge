@@ -1,4 +1,12 @@
+package FuzzyAgent;
+
 message Control {
+  enum OpCode {
+    Audio = 1;
+    Graphic = 2;
+    URL = 3;
+  }
+
   required int32 opcode = 1;
   required int32 sequence = 2;
   required int32 type = 3;
